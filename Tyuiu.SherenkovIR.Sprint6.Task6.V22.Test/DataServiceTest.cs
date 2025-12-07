@@ -10,7 +10,7 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task6.V22.Test
             DataService ds = new DataService();
 
             string path = @"C:\DataSprint6\InPutDataFileTask6V22.txt";
-            string res = "Строка";
+            string res = "MLgyapd kEPQzl IOuDWll TMRyztkPxzEVkcarVMlQ unwTmf";
             string wait = ds.CollectTextFromFile(path);
             Assert.AreEqual(res, wait);
         }
