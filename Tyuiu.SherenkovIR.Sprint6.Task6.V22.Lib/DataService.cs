@@ -6,17 +6,21 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task6.V22.Lib
         public string CollectTextFromFile(string path)
         {
             string file = File.ReadAllText(path);
-            string[] strings = file.Split(" ");
-            string res = "";
-            for (int i = 0; i < strings.Length; i++)
-            {
-                if (strings[i].Contains("Строка"))
-                {
-                    res += $"{strings[i]} ";
-                }
 
+            string[] words = file.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            string result = "";
+            for (int i = 0; i < words.Length; i++)
+            {
+                result += words[i];
+                if (i < words.Length - 1)
+                {
+                    result += " ";
+                }
             }
-            return res.Trim();
+           
+
+            return result;
         }
     }
 }
