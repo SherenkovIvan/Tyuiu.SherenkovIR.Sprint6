@@ -22,8 +22,8 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task5.V13.Test
             DataService ds = new DataService();
             string path = @"C:\DataSprint6\InPutDataFileTask5V13.txt";
             var res = ds.LoadFromDataFile(path);
-            double[] wait = { -1, -1, -3, 8,-5, -8,-6.63, 7,4.83, 3.26, -8.03, -4.59}; 
-            CollectionAssert.AreEqual(wait, res);
+            double[] wait = { -1, -1, -3, 8,-5, -8,-6.63, 7,4.83, 3.26, -8.03, -4.59};
+            Assert.AreEqual(wait, res);
         }
     }
 }
