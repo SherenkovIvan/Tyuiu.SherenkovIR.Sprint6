@@ -5,22 +5,26 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task6.V22.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string file = File.ReadAllText(path);
+            var firstWords = new List<string>();
 
-            string[] words = file.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
-            string result = "";
-            for (int i = 0; i < words.Length; i++)
+            using (StreamReader reader = new StreamReader(path))
             {
-                result += words[i];
-                if (i < words.Length - 1)
+                while (!reader.EndOfStream)
                 {
-                    result += " ";
+                    string? line = reader.ReadLine();
+
+                    if (!string.IsNullOrWhiteSpace(line))
+                    {
+                        var words = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                        if (words.Length > 0)
+                        {
+                            firstWords.Add(words[0]);
+                        }
+                    }
                 }
             }
-           
 
-            return result;
+            return string.Join(" ", firstWords);
         }
     }
 }
