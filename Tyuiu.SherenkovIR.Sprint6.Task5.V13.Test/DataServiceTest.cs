@@ -12,18 +12,24 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task5.V13.Test
             string path = @"C:\DataSprint6\InPutDataFileTask5V13.txt";
 
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExists = fileInfo.Exists;
-            bool wait = true;
-            Assert.AreEqual(wait, fileExists);
-        }
-        [TestMethod]
-        public void ValidCalc()
-        {
-            DataService ds = new DataService();
-            string path = @"C:\DataSprint6\InPutDataFileTask5V13.txt";
-            var res = ds.LoadFromDataFile(path);
-            double[] wait = { -1, -1, -3, 8,-5, -8,-6.63, 7,4.83, 3.26, -8.03, -4.59};
-            Assert.AreEqual(wait, res);
+            var resArray = ds.LoadFromDataFile(path);
+            double[] waitArray = new double[resArray.Length];
+            waitArray[0] = -13.0;
+            waitArray[1] = -19.0;
+            waitArray[2] = -9.82;
+            waitArray[3] = -9.71;
+            waitArray[4] = 3.36;
+            waitArray[5] = 0.48;
+            waitArray[6] = 4.13;
+            waitArray[7] = -0.11;
+            waitArray[8] = -17.36;
+            waitArray[9] = -12.00;
+            waitArray[10] = -12.35;
+
+
+            CollectionAssert.AreEqual(waitArray, resArray);
         }
     }
 }
+        
+
