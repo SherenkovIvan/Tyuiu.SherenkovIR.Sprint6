@@ -8,7 +8,7 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib
             string[] strings = File.ReadAllLines(path);
 
             int rows = strings.GetUpperBound(0) + 1;
-            int cols = strings[0].Split(';').GetUpperBound(0) + 2;
+            int cols = strings[0].Split(';').GetUpperBound(0) + 1;
 
             int[,] matrix = new int[rows, cols];
 
