@@ -65,7 +65,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SherenkovIR.Sprint6.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SherenkovIR.Sprint6.Task7.V19.Test", "Tyuiu.SherenkovIR.Sprint6.Task7.V19.Test\Tyuiu.SherenkovIR.Sprint6.Task7.V19.Test.csproj", "{8CFDFEB7-96EC-4AE4-8AA3-8A01B85661A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib", "Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib\Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib.csproj", "{67C54ECB-5926-4153-8A3E-858790FCE067}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib", "Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib\Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib.csproj", "{004E8170-294B-4B1C-8BEC-7BE8E93D58A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,10 +165,10 @@ Global
 		{8CFDFEB7-96EC-4AE4-8AA3-8A01B85661A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFDFEB7-96EC-4AE4-8AA3-8A01B85661A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFDFEB7-96EC-4AE4-8AA3-8A01B85661A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67C54ECB-5926-4153-8A3E-858790FCE067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67C54ECB-5926-4153-8A3E-858790FCE067}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67C54ECB-5926-4153-8A3E-858790FCE067}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67C54ECB-5926-4153-8A3E-858790FCE067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004E8170-294B-4B1C-8BEC-7BE8E93D58A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004E8170-294B-4B1C-8BEC-7BE8E93D58A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004E8170-294B-4B1C-8BEC-7BE8E93D58A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004E8170-294B-4B1C-8BEC-7BE8E93D58A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,7 +197,7 @@ Global
 		{706F5A21-6C39-4652-9296-9B2C5E79DD3F} = {05A8EA81-7F6B-4D93-B069-DFF111874044}
 		{A4F8ECA5-2304-4371-A6F7-5FCAB9DDA560} = {D30D981F-BD12-428A-A940-29ECDD29AD0B}
 		{8CFDFEB7-96EC-4AE4-8AA3-8A01B85661A4} = {D30D981F-BD12-428A-A940-29ECDD29AD0B}
-		{67C54ECB-5926-4153-8A3E-858790FCE067} = {D30D981F-BD12-428A-A940-29ECDD29AD0B}
+		{004E8170-294B-4B1C-8BEC-7BE8E93D58A7} = {D30D981F-BD12-428A-A940-29ECDD29AD0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B27D1CD-32D3-4466-AE01-F549712C3EF3}
