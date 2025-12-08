@@ -1,4 +1,4 @@
-﻿using Tyuiu.SherenkovIR.Sprint6.Task7.V19.lib;
+﻿using Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib;
 namespace Tyuiu.SherenkovIR.Sprint6.Task7.V19.Test
 {
     [TestClass]
