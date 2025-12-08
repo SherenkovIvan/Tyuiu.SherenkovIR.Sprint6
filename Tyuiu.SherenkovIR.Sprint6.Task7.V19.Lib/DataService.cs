@@ -19,7 +19,7 @@ namespace Tyuiu.SherenkovIR.Sprint6.Task7.V19.Lib
                 {
                     int value = int.Parse(values[c]);
 
-                    if (r == 1 && value % 2 == 0)
+                    if (r == 1 && value % 2 == 1)
                     {
                         matrix[r, c] = 2;
                     }
